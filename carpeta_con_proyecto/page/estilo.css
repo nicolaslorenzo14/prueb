@@ -1,9 +1,9 @@
 *{
-margin: 0.2%;
+margin: 0%;
 padding: 0%;
 box-sizing: border-box;
 }
-@media only screen and (min-width: 425px){
+@media only screen and (min-width: 300px){
 
     body{
 
@@ -66,11 +66,13 @@ box-sizing: border-box;
     }
     .menu{
         background-color:rgba(247, 9, 9, 0.459);
-        padding: 0;
         list-style: none;
         font-size: 1rem;
-        margin: 2px;
         text-align: center;    
+        width: 400px;
+        height: auto;
+        padding: 20px;
+        margin: 20px;
     }
     
     .menu .item{
@@ -118,8 +120,9 @@ box-sizing: border-box;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 180px;
-        padding: 5px;
+        width: 400px;
+        height: auto;
+        padding: 20px;
         margin: 20px;
     }
     
@@ -129,20 +132,22 @@ box-sizing: border-box;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 750px;
+        width: 400px;
+        height: auto;
         padding: 20px;
-        margin: 50px;
+        margin: 20px;
     }
     .section3{
         background-image: url(../multimedios/logo.jpg);
     
         background-attachment: inherit;
-        background-position: 100%;
+        background-position:center;
         background-repeat: round;
-        background-size: 10%;
-        height: 1350px;
+        background-size: 20%;
+        width: 400px;
+        height: auto;
         padding: 20px;
-        margin: 50px;
+        margin: 20px;
         
         
 
@@ -153,9 +158,10 @@ box-sizing: border-box;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 450px;
-        padding: 50px;
-        margin: auto;
+        width: 400px;
+        height: auto;
+        padding: 20px;
+        margin: 20px;
         
     }
     
@@ -173,11 +179,11 @@ box-sizing: border-box;
 
         body{
             font-family: inherit;
-        background-image: url(../multimedios/302175426_466523962035198_669514361756379759_n.jpg);
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+            background-image: url(../multimedios/302175426_466523962035198_669514361756379759_n.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             font-size: 0.8rem;
         }
         h1{
@@ -231,12 +237,15 @@ box-sizing: border-box;
         }
         .menu{
             background-color:black;
-            padding: 0;
             list-style: none;
             font-size: 2rem;
-            margin: 20px auto;
-            text-align: center;    
-        }
+            text-align: center;  
+            width: 700px;
+            height: 250px;
+            padding: 20px;
+            margin: 20px;
+    }  
+        
         
         .menu .item{
             display: inline-block;
@@ -280,9 +289,10 @@ box-sizing: border-box;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            height: 300px;
-            padding: 50px;
-            margin: 50px;
+            width: 700px;
+            height: 250px;
+            padding: 20px;
+            margin: 20px;
         }
         
         .section2{
@@ -292,9 +302,10 @@ box-sizing: border-box;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            height: 800px;
+            width: 700px;
+            height: 700px;
             padding: 20px;
-            margin: 50px;
+            margin: 20px;
         }
         .section3{
             background-image: url(../multimedios/logo.jpg);
@@ -303,10 +314,10 @@ box-sizing: border-box;
             background-position: 100%;
             background-repeat: round;
             background-size: 10%;
-            height: 1400px;
+            width: 700px;
+            height: 1200px;
             padding: 20px;
-            margin: 50px;
-            
+            margin: 20px;
             
     
         }
@@ -316,10 +327,10 @@ box-sizing: border-box;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            height: 450px;
-            padding: 50px;
-            margin: 50px;
-            
+            width: 700px;
+            height: 350px;
+            padding: 20px;
+            margin: 20px;
         }
         
         .fungi{
@@ -337,15 +348,18 @@ box-sizing: border-box;
       
     
 
-    @media only screen and (min-width: 1080px) {|
+    @media only screen and (min-width: 1080px){
     body{
 
     font-family: inherit;
+    background-attachment: fixed;
+    background-position: center;
     background-image: url(../multimedios/302175426_466523962035198_669514361756379759_n.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 2rem;
-    }
+
+        }
 
 h1{
    
@@ -403,10 +417,13 @@ nav{
     padding: 0;
     list-style: none;
     font-size: 2rem;
-    margin: 20px auto;
     text-align: center;  
     border-style: double;
     border-color: aliceblue;
+    width: 1300px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px;
 }
 .menu :hover{
 
@@ -462,9 +479,10 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
-    padding: 10px;
-    margin: 10px;
+    width: 1300px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
 }
 
 .section2{
@@ -474,9 +492,10 @@ nav{
     background-position: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
-    padding: 10px;
-    margin: 10px;
+    width: 1300px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
 }
 .section3{
     background-image: url(../multimedios/logo.jpg);
@@ -485,9 +504,10 @@ nav{
     background-position: 100%;
     background-repeat: round;
     background-size: 10%;
-    height: 1100px;
-    padding: 10px;
-    margin: 10px;
+    width: 1300px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
 
 }
 .section4{
@@ -497,9 +517,10 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
-    padding: 10px;
-    margin: 10px;
+    width: 1300px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
 
 }
 
@@ -513,7 +534,7 @@ nav{
 .fungi:hover{
     transform: rotate(360deg)
 }
-    }
-    
-    
+}
+
+
 
